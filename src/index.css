@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+li {
+  margin-bottom: 3%;
+}
+
+.users, .posts, .comments {
+  border: 0.1px solid rgb(176, 174, 174);
+height: inherit;
+width: 100%;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(233, 232, 232);
+/* box-shadow: 3px 3px 2px #888888; */
+
+}
